@@ -1,0 +1,11 @@
+@use "mixins" as *;
+
+// ************************ FONTS ************************ //
+
+%Font_F1 {
+    @include lato-28-regular;
+}
+
+.Font_F1 {
+    @extend .Font_F1;
+}

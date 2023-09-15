@@ -1,0 +1,32 @@
+@use "variables" as *;
+
+// ************************ FONT PROPERTIES ************************ //
+
+@mixin font(
+  $font-family,
+  $font-size,
+  $font-weight,
+  $line-height,
+  $letter-spacing: normal
+) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: 0.2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+// ************************ FONT TYPES ************************ //
+
+//* F1
+@mixin lato-16-regular {
+    @include font(
+      $font-family-lato,
+      $font-size-3xl,
+      $font-weight-regular,
+      20px,
+    );
+  }

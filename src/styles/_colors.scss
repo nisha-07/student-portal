@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+// ************************ BACKGROUND COLORS ************************ //
+
+%Bg_Primary_Color {
+    background-color: $bg-primary-color;
+}
+
+%Bg_Secondary_Color {
+    background-color: $bg-secondary-color;
+}
+
+.Bg_Primary_Color {
+    @extend %Bg_Primary_Color;
+}
+
+.Bg_Secondary_Color {
+    @extend %Bg_Secondary_Color;
+}
+
+// ************************ FONT COLORS ************************ //
+%Font_Title_Color {
+    color: $font-title-color;
+}
+
+%Font_Subtitle_Color {
+    color: $font-subtitle-color;
+}
+
+.Font_Title_Color {
+    @extend %Font_Title_Color;
+}
+
+.Font_Subtitle_Color {
+    @extend %Font_Subtitle_Color;
+}
