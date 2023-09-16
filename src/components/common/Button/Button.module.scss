@@ -1,0 +1,16 @@
+@use "../../../styles/colors" as *;
+
+.button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+
+    @extend .Font_Title_Color;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+  }

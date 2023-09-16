@@ -1,0 +1,8 @@
+@use "../../../styles/colors" as *;
+
+.icon {
+    height: 30px;
+    width: 30px;
+
+    @extend .Font_Title_Color;
+}

@@ -1,8 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "../routes";
+
 const App = () => {
   return (
-    <header>
-      <p>Welcome to student portal!</p>
-    </header>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 

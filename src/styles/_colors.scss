@@ -10,12 +10,20 @@
     background-color: $bg-secondary-color;
 }
 
+%Bg_Main_Color {
+    background-color: $bg-main-color;
+}
+
 .Bg_Primary_Color {
     @extend %Bg_Primary_Color;
 }
 
 .Bg_Secondary_Color {
     @extend %Bg_Secondary_Color;
+}
+
+.Bg_Main_Color {
+    @extend %Bg_Main_Color;
 }
 
 // ************************ FONT COLORS ************************ //

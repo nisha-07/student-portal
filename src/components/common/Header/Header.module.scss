@@ -1,0 +1,29 @@
+@use "../../../styles/colors" as *;
+@use "../../../styles/fonts" as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+    @extend .Bg_Main_Color;
+    @extend .Font_Title_Color;
+}
+
+.logo {
+    text-decoration: none;
+
+    @extend .Font_F1;
+    @extend .Font_Title_Color;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin: 0px 12px;
+}
