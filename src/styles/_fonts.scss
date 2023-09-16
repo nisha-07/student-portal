@@ -2,10 +2,19 @@
 
 // ************************ FONTS ************************ //
 
-%Font_F1 {
+%Font-F1 {
     @include lato-16-regular;
 }
 
-.Font_F1 {
-    @extend .Font_F1;
+%Font-F2 {
+    @include lato-20-bold;
+}
+
+
+.Font-F1 {
+    @extend %Font-F1;
+}
+
+.Font-F2 {
+    @extend %Font-F2;
 }

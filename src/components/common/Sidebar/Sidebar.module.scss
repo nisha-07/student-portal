@@ -1,0 +1,69 @@
+@use "../../../styles/colors" as *;
+@use "../../../styles/fonts" as *;
+
+.sidebar {
+  margin-top: 85px;
+  padding: 20px 0px;
+  flex: 0 0 25%;
+
+  @extend .Bg_Sidebar_Color;
+  @extend .Font_Title_Color;
+}
+  
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;  
+}
+
+.top-section {
+  text-align: center;
+} 
+
+.name {
+  margin-top: 12px;
+
+  @extend .Font-F2;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  
+  a {
+    padding: 6px;
+    margin-inline: 10px;
+    border-radius: 50%;
+
+    @extend .Bg_Primary_Color;
+  }
+}
+
+.avatar {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.bottom-section {
+  margin: 24px 0px;
+}
+
+.nav-item {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+
+  @extend .Font_Title_Color;
+}
+  
+.nav-item:hover {
+  text-decoration: none;
+    
+  @extend .Bg_Primary_Color;
+}
+  
+.nav-item.active {
+  font-weight: bold;
+
+  @extend .Bg_Primary_Color;
+}

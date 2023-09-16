@@ -14,6 +14,10 @@
     background-color: $bg-main-color;
 }
 
+%Bg_Sidebar_Color {
+    background-color: $bg-sidebar-color;
+}
+
 .Bg_Primary_Color {
     @extend %Bg_Primary_Color;
 }
@@ -24,6 +28,10 @@
 
 .Bg_Main_Color {
     @extend %Bg_Main_Color;
+}
+
+.Bg_Sidebar_Color {
+    @extend %Bg_Sidebar_Color;
 }
 
 // ************************ FONT COLORS ************************ //

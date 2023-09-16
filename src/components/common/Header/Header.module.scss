@@ -2,6 +2,10 @@
 @use "../../../styles/fonts" as *;
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +19,7 @@
 .logo {
     text-decoration: none;
 
-    @extend .Font_F1;
+    @extend .Font-F1;
     @extend .Font_Title_Color;
 }
 

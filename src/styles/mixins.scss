@@ -30,3 +30,13 @@
       20px,
     );
   }
+
+//* F2
+@mixin lato-20-bold {
+  @include font(
+    $font-family-lato,
+    $font-size-lg,
+    $font-weight-bold,
+    20px,
+  );
+}

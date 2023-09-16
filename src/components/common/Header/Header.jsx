@@ -1,12 +1,12 @@
-import classes from "./Header.module.scss"
-import settingsICon from "../../../assets/icons/settings..svg"
-import notificationIcon from "../../../assets/icons/notification.svg"
-import earthIcon from "../../../assets/icons/earth.svg"
-import IconImage from "../IconImage/IconImage"
 import { Link } from "react-router-dom"
-import Avatar from "../Avatar/Avatar"
 import avatarIcon from "../../../assets/icons/avatar.png"
+import earthIcon from "../../../assets/icons/earth.svg"
+import notificationIcon from "../../../assets/icons/notification.svg"
+import settingsICon from "../../../assets/icons/settingsHeader.png"
+import Avatar from "../Avatar/Avatar"
 import Button from "../Button/Button"
+import IconImage from "../IconImage/IconImage"
+import classes from "./Header.module.scss"
 
 
 const Header = () => {
