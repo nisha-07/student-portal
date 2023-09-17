@@ -16,3 +16,11 @@
 .profile-info {
     display: flex;
 }
+
+.footer {
+    margin-top: 24px;
+    margin-bottom: 4px;
+    text-align: center;
+    
+    @extend .Font_Title_Color;
+}

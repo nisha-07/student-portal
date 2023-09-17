@@ -9,6 +9,7 @@ const Profile = () => {
             <ProfileInfo />
         </div>
         <ProfileTabs />
+        <p className={classes.footer}>Matriye.io 2023, all rights reserved.</p>
     </div>
 }
 

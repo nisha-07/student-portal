@@ -9,6 +9,7 @@ const StudentDashboard = () => {
             <p className={classes.subtitle}>Dashboard</p>
             <TopSection />
             <Project />
+            <p className={classes.footer}>Matriye.io 2023, all rights reserved.</p>
         </div>
     )
 }
