@@ -1,4 +1,5 @@
 import ProfileInfo from "../../components/common/ProfileInfo/ProfileInfo"
+import ProfileTabs from "../../components/common/ProfileTabs/ProfileTabs"
 import classes from "./Profile.module.scss"
 
 const Profile = () => {
@@ -7,6 +8,7 @@ const Profile = () => {
         <div className={classes["profile-info"]}>
             <ProfileInfo />
         </div>
+        <ProfileTabs />
     </div>
 }
 
