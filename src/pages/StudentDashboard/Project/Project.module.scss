@@ -1,0 +1,105 @@
+@use "../../../styles/colors" as *;
+@use "../../../styles/fonts" as *;
+@use "../../../styles/variables.scss" as *;
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px; 
+
+    // p {
+    //     @extend .Font-F1;
+    //     @extend .Font_Title_Color;
+    // }
+}
+
+.title {
+    margin-bottom: 12px;
+
+    @extend .Font-F2;
+    @extend .Font_Title_Color;
+}
+
+.subtitle {
+    margin-top: 12px;
+
+    @extend .Font-F1;
+    @extend .Font_Title_Color;
+}
+
+.left-section {
+    margin-right: 18px;
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        padding: 24px;
+        margin-top: 12px;
+        height: 269px;
+
+        @extend .Bg_Primary_Color;
+
+        p {
+            @extend .Font-F1;
+            @extend .Font_Title_Color;
+        }
+    }
+}
+
+.right-section {
+    margin-right: 18px;
+
+    .project-status {
+        display: flex;
+        justify-content: space-around;
+        padding: 16px;
+
+        @extend .Bg_Secondary_Color;
+    }
+
+    div {
+        margin-top: 12px;
+
+        @extend .Bg_Primary_Color;
+
+        p {
+            @extend .Font-F1;
+            @extend .Font_Title_Color;
+        }
+    }
+
+    .subContainer {
+        padding-bottom: 24px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .project {
+        @extend .Font-F1;
+        @extend .Font_Title_Color;
+    }
+
+    .status {
+        padding: 8px;
+        border-radius: 6px;
+    }
+}
+
+.completed {
+    background-color: $success-color;
+}
+
+.canceled {
+    background-color: $danger-color;
+}
+
+.pending {
+    background-color: $pending-color;
+}
+
+.on-going {
+    background-color: $alert-color;
+}

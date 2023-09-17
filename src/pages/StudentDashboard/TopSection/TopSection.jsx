@@ -59,7 +59,7 @@ const TopSection = () => {
                     <span>{session.count}</span></div>)}
             </div>
             <div className={classes.test}>
-                <p>My Ttest</p>
+                <p>My Test</p>
                 {tests.map((test, index) => <div key={index} className={classes.info}><p>{test.label}</p>
                     <span>{test.count}</span></div>)}
             </div>
