@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import StudentDashboard from "../pages/StudentDashboard/StudentDashboard";
-import Profile from "../pages/Profile/Profile";
+import StudentDashboard from "../pages/StudentDashboard";
+import Profile from "../pages/Profile";
 
 const AppRouter = () => {
 	return (

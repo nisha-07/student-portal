@@ -1,3 +1,18 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/colors" as *;
+
 .container {
-    margin-top: 85px;
+    padding: 24px;
+    flex: 1 0 70%;
+
+    @extend .Bg_Main_Color;
+}
+
+.title {
+    @extend .Font_Title_Color;
+    @extend .Font-F2;
+}
+
+.subtitle {
+    @extend .Font_Title_Color;
 }

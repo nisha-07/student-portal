@@ -11,7 +11,7 @@ import IconImage from "../IconImage/IconImage";
 import classes from "./Sidebar.module.scss";
 
 const Sidebar = () => {
-	const [activeNavItem, setActiveNavItem] = useState(null);
+	const [activeNavItem, setActiveNavItem] = useState(0);
 
 	// Set the active navigation tab
 	const handleNavItemClick = (index) => {
@@ -67,9 +67,8 @@ const Sidebar = () => {
 					<Link
 						key={index}
 						to={nav.link}
-						className={`${classes["nav-item"]} ${
-							index === activeNavItem ? classes.active : ""
-						}`}
+						className={`${classes["nav-item"]} ${index === activeNavItem ? classes.active : ""
+							}`}
 						onClick={() => handleNavItemClick(index)}
 					>
 						{nav.label}

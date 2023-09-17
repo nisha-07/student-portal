@@ -1,0 +1,39 @@
+@use "../../../styles/colors" as *;
+@use "../../../styles/fonts" as *;
+
+.container {
+    display: flex;
+    justify-content: start;
+
+    @extend .Bg_Primary_Color;
+}
+
+.section {
+    padding: 50px;
+    margin: 20px;
+    border-right: 2px solid #ffffff;
+    font-size: 20px;
+
+    @extend .Font_Title_Color;
+}
+
+.test {
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+
+    @extend .Font_Title_Color;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    
+    span {
+        margin: 16px;
+    }
+
+
+    @extend .Font-F1;
+    @extend .Font_Title_Color;
+}
