@@ -1,10 +1,10 @@
-import Header from "../../components/common/Header/Header"
+import classes from "./StudentDashboard.module.scss"
 
 const StudentDashboard = () => {
     return (
-        <>
-            <Header />
-        </>
+        <div className={classes.container}>
+            Dashboard
+        </div>
     )
 }
 

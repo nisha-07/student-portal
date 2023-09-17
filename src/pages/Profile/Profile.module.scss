@@ -1,0 +1,18 @@
+@use "../../styles/fonts" as *;
+@use "../../styles/colors" as *;
+
+.container {
+    padding: 18px;
+    flex: 1 0 70%;
+
+    @extend .Bg_Main_Color;
+}
+
+.title {
+    @extend .Font_Title_Color;
+    @extend .Font-F2;
+}
+
+.profile-info {
+    display: flex;
+}
