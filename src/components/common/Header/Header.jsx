@@ -42,7 +42,7 @@ const Header = () => {
                     <Avatar {...{ src: avatarIcon, altText: "avatar" }} />
                 </Link>
                 {/* //TODO: Perform logout functionality */}
-                <Button {...{ label: "logout", handleClick: () => console.log("LOGOUT") }} />
+                <Button {...{ label: "logout", handleClick: () => alert("Logout!!") }} />
             </div>
         </div>
     )
