@@ -3,7 +3,7 @@
 
 .container {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 
     @extend .Bg_Primary_Color;
 }
